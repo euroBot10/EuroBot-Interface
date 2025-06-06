@@ -1,0 +1,31 @@
+<service>
+	<id>networktablesserver.exe</id>
+	<name>NetworkTablesServer</name>
+	<description>Servidor para conectar com NetworkTables via pynetworktables2js</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>NetworkTablesServer wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>EUROCONTAINERS</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src</workingdirectory>
+</service>

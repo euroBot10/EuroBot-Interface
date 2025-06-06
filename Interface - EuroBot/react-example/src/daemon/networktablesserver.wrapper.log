@@ -1,0 +1,918 @@
+2025-05-08 10:14:14 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 10:14:14 - Started 17940
+2025-05-08 10:21:03 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 10:21:03 - Started 11768
+2025-05-08 10:21:18 - Stopping networktablesserver.exe
+2025-05-08 10:21:18 - ProcessKill 11768
+2025-05-08 10:21:18 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 10:21:48 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 10:21:48 - Started 6700
+2025-05-08 10:28:40 - Stopping networktablesserver.exe
+2025-05-08 10:28:40 - ProcessKill 6700
+2025-05-08 10:28:40 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 10:29:09 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 10:29:09 - Started 6440
+2025-05-08 10:39:12 - Stopping networktablesserver.exe
+2025-05-08 10:39:12 - ProcessKill 6440
+2025-05-08 10:39:12 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 10:39:40 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 10:39:40 - Started 6612
+2025-05-08 10:44:27 - Stopping networktablesserver.exe
+2025-05-08 10:44:27 - ProcessKill 6612
+2025-05-08 10:44:27 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 10:45:54 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 10:45:54 - Started 6292
+2025-05-08 11:02:08 - Stopping networktablesserver.exe
+2025-05-08 11:02:08 - ProcessKill 6292
+2025-05-08 11:02:09 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 11:02:38 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 11:02:38 - Started 6756
+2025-05-08 11:16:37 - Stopping networktablesserver.exe
+2025-05-08 11:16:37 - ProcessKill 6756
+2025-05-08 11:16:38 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 11:17:07 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 11:17:08 - Started 6772
+2025-05-08 11:36:45 - Stopping networktablesserver.exe
+2025-05-08 11:36:45 - ProcessKill 6772
+2025-05-08 11:36:46 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 11:37:15 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 11:37:15 - Started 6460
+2025-05-08 11:40:06 - Stopping networktablesserver.exe
+2025-05-08 11:40:06 - ProcessKill 6460
+2025-05-08 11:40:07 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 11:40:38 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 11:40:38 - Started 6708
+2025-05-08 12:15:12 - Stopping networktablesserver.exe
+2025-05-08 12:15:12 - ProcessKill 6708
+2025-05-08 12:15:12 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 12:15:40 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 12:15:40 - Started 6496
+2025-05-08 13:02:57 - Stopping networktablesserver.exe
+2025-05-08 13:02:57 - ProcessKill 6496
+2025-05-08 13:02:57 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 13:03:25 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 13:03:25 - Started 6548
+2025-05-08 13:08:18 - Stopping networktablesserver.exe
+2025-05-08 13:08:18 - ProcessKill 6548
+2025-05-08 13:08:19 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 13:08:48 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 13:08:48 - Started 6660
+2025-05-08 14:07:19 - Stopping networktablesserver.exe
+2025-05-08 14:07:19 - ProcessKill 6660
+2025-05-08 14:07:20 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 14:07:49 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 14:07:49 - Started 6836
+2025-05-08 16:42:19 - Stopping networktablesserver.exe
+2025-05-08 16:42:19 - ProcessKill 6836
+2025-05-08 16:42:19 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 16:46:02 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 16:46:02 - Started 6536
+2025-05-08 16:50:49 - Stopping networktablesserver.exe
+2025-05-08 16:50:49 - ProcessKill 6536
+2025-05-08 16:50:49 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 16:55:01 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 16:55:01 - Started 6732
+2025-05-08 17:03:02 - Stopping networktablesserver.exe
+2025-05-08 17:03:02 - ProcessKill 6732
+2025-05-08 17:03:02 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 17:11:29 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 17:11:29 - Started 6400
+2025-05-08 17:11:55 - Stopping networktablesserver.exe
+2025-05-08 17:11:55 - ProcessKill 6400
+2025-05-08 17:11:55 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 17:12:25 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 17:12:25 - Started 6540
+2025-05-08 17:12:39 - Stopping networktablesserver.exe
+2025-05-08 17:12:39 - ProcessKill 6540
+2025-05-08 17:12:39 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-08 17:13:37 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-08 17:13:37 - Started 6660
+2025-05-08 17:26:04 - Stopping networktablesserver.exe
+2025-05-08 17:26:04 - ProcessKill 6660
+2025-05-08 17:26:04 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-09 07:41:52 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-09 07:41:52 - Started 6868
+2025-05-09 12:11:50 - Stopping networktablesserver.exe
+2025-05-09 12:11:50 - ProcessKill 6868
+2025-05-09 12:11:51 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-09 12:12:21 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-09 12:12:21 - Started 6772
+2025-05-09 13:49:23 - Stopping networktablesserver.exe
+2025-05-09 13:49:23 - ProcessKill 6772
+2025-05-09 13:49:24 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-09 13:49:54 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-09 13:49:54 - Started 6464
+2025-05-09 15:47:25 - Stopping networktablesserver.exe
+2025-05-09 15:47:25 - ProcessKill 6464
+2025-05-09 15:47:25 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-09 15:47:54 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-09 15:47:55 - Started 6568
+2025-05-09 16:32:19 - Stopping networktablesserver.exe
+2025-05-09 16:32:19 - ProcessKill 6568
+2025-05-09 16:32:19 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-12 12:52:49 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-12 12:52:49 - Started 6572
+2025-05-12 13:23:50 - Stopping networktablesserver.exe
+2025-05-12 13:23:50 - ProcessKill 6572
+2025-05-12 13:23:50 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-12 13:24:21 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-12 13:24:22 - Started 6664
+2025-05-12 15:09:12 - Stopping networktablesserver.exe
+2025-05-12 15:09:12 - ProcessKill 6664
+2025-05-12 15:09:12 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-12 15:09:42 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-12 15:09:42 - Started 6468
+2025-05-12 15:35:26 - Stopping networktablesserver.exe
+2025-05-12 15:35:26 - ProcessKill 6468
+2025-05-12 15:35:26 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-12 15:35:56 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-12 15:35:56 - Started 6588
+2025-05-12 17:23:23 - Stopping networktablesserver.exe
+2025-05-12 17:23:23 - ProcessKill 6588
+2025-05-12 17:23:23 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-13 07:57:06 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-13 07:57:06 - Started 6704
+2025-05-13 14:33:27 - Stopping networktablesserver.exe
+2025-05-13 14:33:27 - ProcessKill 6704
+2025-05-13 14:33:28 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-13 14:33:56 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-13 14:33:56 - Started 6680
+2025-05-13 17:47:24 - Stopping networktablesserver.exe
+2025-05-13 17:47:24 - ProcessKill 6680
+2025-05-13 17:47:25 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-13 18:06:27 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-13 18:06:28 - Started 6584
+2025-05-13 18:53:35 - Stopping networktablesserver.exe
+2025-05-13 18:53:35 - ProcessKill 6584
+2025-05-13 18:53:35 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-14 07:36:53 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-14 07:36:53 - Started 6480
+2025-05-14 17:51:31 - Stopping networktablesserver.exe
+2025-05-14 17:51:31 - ProcessKill 6480
+2025-05-14 17:51:32 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-15 08:15:32 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-15 08:15:32 - Started 6556
+2025-05-15 10:34:57 - Stopping networktablesserver.exe
+2025-05-15 10:34:57 - ProcessKill 6556
+2025-05-15 10:34:57 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-15 10:35:28 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-15 10:35:28 - Started 7072
+2025-05-15 12:31:33 - Stopping networktablesserver.exe
+2025-05-15 12:31:33 - ProcessKill 7072
+2025-05-15 12:31:33 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-15 12:32:05 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-15 12:32:05 - Started 6228
+2025-05-15 12:32:38 - Stopping networktablesserver.exe
+2025-05-15 12:32:38 - ProcessKill 6228
+2025-05-15 12:32:38 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-15 12:33:09 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-15 12:33:09 - Started 6396
+2025-05-15 18:11:13 - Stopping networktablesserver.exe
+2025-05-15 18:11:13 - ProcessKill 6396
+2025-05-15 18:11:14 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-16 07:49:54 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-16 07:49:54 - Started 6964
+2025-05-16 18:12:57 - Stopping networktablesserver.exe
+2025-05-16 18:12:57 - ProcessKill 6964
+2025-05-16 18:12:58 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-17 07:59:23 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-17 07:59:23 - Started 6492
+2025-05-17 14:53:29 - Stopping networktablesserver.exe
+2025-05-17 14:53:29 - ProcessKill 6492
+2025-05-17 14:53:29 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-17 15:13:37 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-17 15:13:37 - Started 7068
+2025-05-17 15:48:38 - Stopping networktablesserver.exe
+2025-05-17 15:48:38 - ProcessKill 7068
+2025-05-17 15:48:38 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-19 07:44:29 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-19 07:44:29 - Started 7152
+2025-05-19 14:28:40 - Stopping networktablesserver.exe
+2025-05-19 14:28:40 - ProcessKill 7152
+2025-05-19 14:28:40 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-19 14:29:10 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-19 14:29:10 - Started 7152
+2025-05-19 18:59:42 - Stopping networktablesserver.exe
+2025-05-19 18:59:42 - ProcessKill 7152
+2025-05-19 18:59:42 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-20 08:00:38 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-20 08:00:38 - Started 5888
+2025-05-20 17:01:56 - Stopping networktablesserver.exe
+2025-05-20 17:01:56 - ProcessKill 5888
+2025-05-20 17:01:56 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-21 08:17:30 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-21 08:17:30 - Started 6972
+2025-05-21 13:19:17 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-21 13:19:17 - Started 6772
+2025-05-21 19:19:37 - Stopping networktablesserver.exe
+2025-05-21 19:19:37 - ProcessKill 6772
+2025-05-21 19:19:38 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-22 07:53:24 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-22 07:53:24 - Started 7396
+2025-05-22 16:29:55 - Stopping networktablesserver.exe
+2025-05-22 16:29:55 - ProcessKill 7396
+2025-05-22 16:29:55 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-23 09:23:30 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-23 09:23:30 - Started 7384
+2025-05-23 09:39:51 - Stopping networktablesserver.exe
+2025-05-23 09:39:51 - ProcessKill 7384
+2025-05-23 09:39:51 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-23 12:27:37 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-23 12:27:37 - Started 7056
+2025-05-23 17:22:57 - Stopping networktablesserver.exe
+2025-05-23 17:22:57 - ProcessKill 7056
+2025-05-23 17:22:57 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-26 08:34:02 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-26 08:34:02 - Started 7368
+2025-05-26 17:33:35 - Stopping networktablesserver.exe
+2025-05-26 17:33:35 - ProcessKill 7368
+2025-05-26 17:33:35 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-26 17:35:18 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-26 17:35:18 - Started 6632
+2025-05-26 17:41:30 - Stopping networktablesserver.exe
+2025-05-26 17:41:30 - ProcessKill 6632
+2025-05-26 17:41:30 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-27 07:52:50 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-27 07:52:50 - Started 6652
+2025-05-27 14:26:44 - Stopping networktablesserver.exe
+2025-05-27 14:26:44 - ProcessKill 6652
+2025-05-27 14:26:44 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-27 14:27:11 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-27 14:27:11 - Started 6600
+2025-05-27 16:09:34 - Stopping networktablesserver.exe
+2025-05-27 16:09:34 - ProcessKill 6600
+2025-05-27 16:09:34 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-27 16:10:04 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-27 16:10:04 - Started 6520
+2025-05-27 17:27:38 - Stopping networktablesserver.exe
+2025-05-27 17:27:38 - ProcessKill 6520
+2025-05-27 17:27:38 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-28 08:03:46 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-28 08:03:46 - Started 6832
+2025-05-28 17:30:15 - Stopping networktablesserver.exe
+2025-05-28 17:30:15 - ProcessKill 6832
+2025-05-28 17:30:15 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-29 07:55:40 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-29 07:55:40 - Started 5992
+2025-05-29 11:55:04 - Stopping networktablesserver.exe
+2025-05-29 11:55:04 - ProcessKill 5992
+2025-05-29 11:55:04 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-29 11:55:33 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-29 11:55:33 - Started 6792
+2025-05-29 15:00:04 - Stopping networktablesserver.exe
+2025-05-29 15:00:04 - ProcessKill 6792
+2025-05-29 15:00:05 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-29 15:00:33 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-29 15:00:33 - Started 6828
+2025-05-29 17:34:59 - Stopping networktablesserver.exe
+2025-05-29 17:34:59 - ProcessKill 6828
+2025-05-29 17:34:59 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-30 07:59:47 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-30 07:59:47 - Started 7160
+2025-05-30 09:28:13 - Stopping networktablesserver.exe
+2025-05-30 09:28:13 - ProcessKill 7160
+2025-05-30 09:28:14 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-30 09:28:42 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-30 09:28:42 - Started 7320
+2025-05-30 11:02:03 - Stopping networktablesserver.exe
+2025-05-30 11:02:03 - ProcessKill 7320
+2025-05-30 11:02:03 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-05-30 11:02:35 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-05-30 11:02:35 - Started 6644
+2025-05-30 16:36:01 - Stopping networktablesserver.exe
+2025-05-30 16:36:01 - ProcessKill 6644
+2025-05-30 16:36:01 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-06-02 08:38:09 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-06-02 08:38:09 - Started 6556
+2025-06-03 17:25:53 - Stopping networktablesserver.exe
+2025-06-03 17:25:53 - ProcessKill 6556
+2025-06-03 17:25:53 - Shutdown exception
+Message:Classe não registrada
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2025-06-03 17:26:23 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\robot\OneDrive\Área de Trabalho\Interface - EuroBot\react-example\src\server.js" --scriptoptions= --log "NetworkTablesServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-06-03 17:26:23 - Started 6420

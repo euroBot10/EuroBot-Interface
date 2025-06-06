@@ -1,0 +1,1083 @@
+/* -------------------
+   Fonte & Layout Base
+------------------- */
+@font-face {
+  font-family: 'Sansita One';
+  src: url('/Fonts/Sansita-ExtraBold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  background: linear-gradient(to bottom, #b2e2bd, #f3f3e7);
+  margin: 0;
+  padding: 0;
+}
+
+/* Centraliza conteúdo, máximo de 80% da largura */
+.container {
+  max-width: 80%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* -------------------
+   Cabeçalho
+------------------- */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #94d8a5;
+  background-color: var(--bg-light); /* Fundo no modo claro */
+  padding: 15px;
+  border-bottom: 4px solid #78c189;
+  position: relative;
+}
+
+.nome-empresa {
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #241f1f;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+.logo-empresa {
+  border-radius: 16%;
+  margin: 0 10px;
+  border: 2px solid #7cb414;
+  
+  width: 200px; /* ajuste a largura para 200px */
+  height: 110px; /* mantenha a altura proporcional */
+  margin: 15px; 
+  transition: transform 0.3s ease;
+}
+
+.logo-empresaW {
+  border-radius: 16%;
+  margin: 0 10px;
+  border: 2px solid #7cb414;
+
+  width: 200px; /* ajuste a largura para 200px */
+  height: 110px; /* mantenha a altura proporcional */
+  margin: 15px; 
+  transition: transform 0.3s ease;
+}
+
+
+/* -------------------
+   Conteúdo Principal (Layout com 3 colunas)
+------------------- */
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+}
+
+/* Coluna Esquerda: Controles e informações */
+.controls-container {
+  flex-basis: 300px; /* Largura fixa para controles */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Coluna Central: Câmera centralizada */
+.camera-container {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  max-height: 540px;
+}
+.camera-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Coluna Direita: Container de imagens capturadas (com largura menor) */
+.captured-container {
+  flex-basis: 250px; /* Largura reduzida */
+  background: #ffffffcc;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 15px;
+  max-height: 540px;
+  overflow-y: auto;
+}
+.captured-container h2 {
+  margin: 0 0 10px 0;
+  color: #555;
+  text-align: center;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+.icone {
+  width: 140px;
+  height: 140px;
+  margin: 10px auto;
+  border: 2px solid #aaa;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f9f9f9;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+.icone img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+/* -------------------
+   Rodapé
+------------------- */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #94d8a5;
+  color: #241f1f;
+  font-size: 0.9em;
+  margin-top: 20px;
+  border-top: 4px solid #78c189;
+  text-shadow: 0px 1px 1px #ffffff;
+}
+
+/* -------------------
+   Botões e Controles (App.tsx)
+------------------- */
+.btn {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Botões específicos */
+
+
+
+
+/* Estilo para o cronômetro */
+.timer {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #241f1f;
+  text-align: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+/* Garante que todos os botões dentro da área de controles tenham a mesma largura */
+.controls-container button {
+  width: 300px;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+
+                                    /* Posição do Encoder e Data */
+
+
+/* Envolve a câmera para posicionamento absoluto dos overlays */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+   /* preserva 16:9 sem distorção */
+   aspect-ratio: 16 / 9;
+}
+
+/* Garante que a imagem ocupe todo o contêiner */
+.video-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Estilo base dos overlays */
+.overlay {
+  position: absolute;
+  padding: 6px 12px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1.1em;
+  border-radius: 4px;
+  font-family: "Sansita One", sans-serif;
+  pointer-events: none; /* deixa cliques passarem para a câmera */
+}
+
+/* Canto inferior esquerdo */
+.bottom-left {
+  bottom: 10px;
+  left: 15px;
+}
+
+/* Canto inferior direito */
+.bottom-right {
+  bottom: 10px;
+  right: 15px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+.gyro-widget-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffffcc;
+  padding: 5px;
+  border-radius: 100px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+/* Tablet */
+
+/* ... seu CSS anterior ... */
+
+/* wrapper padrão, independente do tamanho */
+
+/* overlays existentes… */
+
+/* ajustes específicos para tablet */
+@media screen and (max-width: 1024px) {
+  .video-wrapper {
+    max-height: 40vh;
+  }
+  .conteudo {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .controls-container,
+  .captured-container {
+    flex-basis: 100%;
+  }
+  .camera-container {
+    flex-basis: 100%;
+    padding: 0;
+  }
+
+  
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 50vh;
+  height: auto;
+  margin: 0 auto;
+}
+
+.video-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+}
+
+
+
+
+
+
+[data-theme='dark'] .header {
+  background-color: var(--bg-dark); /* Fundo no modo escuro */
+  border-bottom: 4px solid #555; /* Alterando a cor da borda para escura */
+}
+
+/* Estilo dos botões para alternar temas */
+.theme-toggle-btn img {
+  transition: filter 0.3s ease;
+}
+
+/* Modo claro */
+[data-theme='light'] .theme-toggle-btn img {
+  filter: brightness(1) invert(0); /* Normal (sem inverter cores) no modo claro */
+}
+
+/* Modo escuro */
+[data-theme='dark'] .theme-toggle-btn img {
+  filter: brightness(0) invert(1); /* Inverte as cores e ajusta o brilho para branco no modo escuro */
+}
+
+
+:root {--bg-light:#b2e2bd;--bg-light-alt:#f3f3e7;--bg-dark:#2e2e2e;--bg-dark-alt:#3b3b3b;--text-light:#241f1f;--text-dark:#e0e0e0}
+[data-theme='light']{--bg-primary:var(--bg-light);--bg-secondary:var(--bg-light-alt);--text-color:var(--text-light)}
+[data-theme='dark'] {--bg-primary:var(--bg-dark);--bg-secondary:var(--bg-dark-alt);--text-color:var(--text-dark)}
+*,*::before,*::after{box-sizing:border-box}
+body,.app-container{margin:0;padding:0;font-family:'Sansita One',Arial,sans-serif;background:linear-gradient(to bottom,var(--bg-primary),var(--bg-secondary));color:var(--text-color);transition:background .4s,color .4s}
+.theme-toggle-btn{position:absolute;top:10px;left:10px;background:none;border:none;font-size:1.5rem;cursor:pointer}
+.connection-info{position:absolute;top:10px;right:10px;font-size:1.2rem}
+.conteudo{display:flex;gap:20px;padding:10px 20px 20px;margin-top: -30px}
+.controls-container,.camera-container,.gyro-widget-container,.captured-row{background:var(--bg-secondary);border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.2);padding:15px}
+.controls-container{flex:0 0 300px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.camera-gyro-container{display:flex;gap:20px;flex:1}
+.camera-container{flex:1;display:flex;justify-content:center;align-items:center}
+.video-wrapper{position:relative;width:100%;aspect-ratio:16/9}
+.camera-container img{width:100%;height:100%;object-fit:cover;border-radius:8px}
+.overlay{position:absolute;background:rgba(0,0,0,0.6);color:#fff;padding:6px 12px;border-radius:4px;font-size:1em}
+.bottom-left{bottom:10px;left:15px}
+.bottom-right{bottom:10px;right:15px}
+.gyro-widget-container{flex:0 0 200px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.captured-row{display:flex;gap:10px;justify-content:center;padding:20px}
+.icone{width:120px;height:120px;display:flex;align-items:center;justify-content:center}
+.btn{padding:12px 30px;border:none;border-radius:25px;font-size:1.1em;font-weight:bold;cursor:pointer;transition:background-color .3s,transform .2s}
+.start-btn,.stop-btn{width:140px}
+.reset-btn,.take-photo-btn{width:300px}
+.start-nt-btn{width:250px}
+.timer{font-size:1.2em;font-weight:bold;padding:10px;background:rgba(255,255,255,0.8);border-radius:8px}
+@media(max-width:1024px){.conteudo{flex-direction:column;margin-top:50px}.captured-row{flex-wrap:wrap}}
+
+
+
+.top-bar {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.connection-info {
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.theme-toggle-btn {
+  font-size: 3rem;
+  margin-left: 1500px;
+  margin-top: 70px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 1. Tombar o raio e adicionar sombra inicial */
+.controls-container .btn {
+  position: relative;           /* para o efeito de overlay */
+  overflow: hidden;             /* esconde o ::before quando não ativo */
+  border-radius: 12px;          /* mais sutil que 25px */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* 2. Efeito de iluminação deslizante */
+.controls-container .btn::before {
+  content: "";
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%; height: 100%;
+  background: rgba(255,255,255,0.2);
+  transform: skewX(-20deg);
+  transition: all 0.5s ease;
+}
+
+/* 3. Estado hover: elevando e reforçando sombra */
+.controls-container .btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 14px rgba(0,0,0,0.15);
+}
+
+/* 4. Animar o ::before ao passar o mouse */
+.controls-container .btn:hover::before {
+  left: 200%;
+}
+
+/* 5. Estado ativo (clique): efeito de “afundar” */
+.controls-container .btn:active {
+  transform: translateY(-2px) scale(0.98);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 6. Ajuste fino da tipografia */
+.controls-container .btn {
+  font-size: 1rem;      /* um pouco menor que 1.1em */
+  letter-spacing: 0.5px;
+}
+/* 7. Cores e gradientes – use variáveis se tiver tema */
+.start-btn, 
+.stop-btn, 
+.reset-btn, 
+.take-photo-btn, 
+.start-nt-btn {
+    background: linear-gradient(45deg, #186b49, #538095);
+    transition: background 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.start-btn:hover, 
+.stop-btn:hover, 
+.reset-btn:hover, 
+.take-photo-btn:hover, 
+.start-nt-btn:hover {
+    background: linear-gradient(45deg, #4CAF50, #81C784); /* Cor ao passar o mouse */
+}
+
+.controls-container .btn {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  /* mantém o botão do tamanho do ícone */
+}
+.theme-icon {
+  width: auto;
+  height: 45px;
+  transition: transform 0.3s ease;
+}
+.theme-toggle-btn:hover .theme-icon {
+  transform: scale(1.2);
+}
+
+.battery-status-intermediate {
+  margin-left: 67px;
+}
+
+
+
+/* PÁ */
+
+
+/* Header principal */
+.header {
+  position: relative;           /* para posicionar a pá */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #94d8a5;
+  padding: 10px 20px;
+  border-bottom: 4px solid #78c189;
+}
+
+/* Imagem da pá eólica */
+.wind-turbine {
+  position: absolute;
+  left: 151px;                   /* distância da borda esquerda */
+  top: 53%;
+  transform: translateY(-50%);
+  width: 160px;                  /* ajuste conforme necessário */
+  height: auto;
+  opacity: 0.2;
+}
+
+
+.wind-turbine2 {
+  position: absolute;
+  left: 1px;                   
+  top: 53%;
+  /* primeiro centrar verticalmente, depois girar */
+  transform: translateY(-50%) rotate(180deg);
+  transform-origin: center center;  /* gira em torno do próprio centro */
+  width: 160px;                  
+  height: auto;
+  opacity: 0.8;       
+  transform: translateY(-50%) scaleX(-1);     
+  opacity: 0.2;     
+}
+
+.wind-turbine3 {
+  position: absolute;
+  left: 305px;                   
+  top: 53%;
+  /* primeiro centrar verticalmente, depois girar */
+  transform: translateY(-50%) rotate(180deg);
+  transform-origin: center center;  /* gira em torno do próprio centro */
+  width: 160px;                  
+  height: auto;
+  opacity: 0.8;       
+  transform: translateY(-50%) scaleX(-1);   
+  opacity: 0.2;       
+}
+
+.wind-turbine4 {
+  position: absolute;
+  left: 456px;                   /* distância da borda esquerda */
+  top: 53%;
+  transform: translateY(-50%);
+  width: 160px;                  /* ajuste conforme necessário */
+  height: auto;
+  opacity: 0.2;
+}
+
+
+
+.wind-turbine5 {
+  position: absolute;
+  left: 609px;                   
+  top: 53%;
+  /* primeiro centrar verticalmente, depois girar */
+  transform: translateY(-50%) rotate(180deg);
+  transform-origin: center center;  /* gira em torno do próprio centro */
+  width: 160px;                  
+  height: auto;
+  opacity: 0.8;       
+  transform: translateY(-50%) scaleX(-1); 
+  opacity: 0.2;         
+}
+
+
+
+.wind-turbine6 {
+  position: absolute;
+  left: 761px;                   /* distância da borda esquerda */
+  top: 53%;
+  transform: translateY(-50%);
+  width: 160px;                  /* ajuste conforme necessário */
+  height: auto;
+  opacity: 0.2;
+}
+
+.wind-turbine7 {
+  position: absolute;
+  left: 914px;                   
+  top: 53%;
+  /* primeiro centrar verticalmente, depois girar */
+  transform: translateY(-50%) rotate(180deg);
+  transform-origin: center center;  /* gira em torno do próprio centro */
+  width: 160px;                  
+  height: auto;
+  opacity: 0.8;       
+  transform: translateY(-50%) scaleX(-1); 
+  opacity: 0.2;         
+}
+
+
+
+.wind-turbine8 {
+  position: absolute;
+  left: 1067px;                   /* distância da borda esquerda */
+  top: 53%;
+  transform: translateY(-50%);
+  width: 160px;                  /* ajuste conforme necessário */
+  height: auto;
+  opacity: 0.2;
+}
+
+.wind-turbine9 {
+  position: absolute;
+  left: 1220px;                   
+  top: 53%;
+  /* primeiro centrar verticalmente, depois girar */
+  transform: translateY(-50%) rotate(180deg);
+  transform-origin: center center;  /* gira em torno do próprio centro */
+  width: 160px;                  
+  height: auto;
+  opacity: 0.8;       
+  transform: translateY(-50%) scaleX(-1);    
+  opacity: 0.2;      
+}
+
+
+.wind-turbine10 {
+  position: absolute;
+  left: 1370px;                   /* distância da borda esquerda */
+  top: 53%;
+  transform: translateY(-50%);
+  width: 160px;                  /* ajuste conforme necessário */
+  height: auto;
+  opacity: 0.2;
+}
+
+.wind-turbine11{
+  position: absolute;
+  left: 1520px;                   
+  top: 53%;
+  /* primeiro centrar verticalmente, depois girar */
+  transform: translateY(-50%) rotate(180deg);
+  transform-origin: center center;  /* gira em torno do próprio centro */
+  width: 160px;                  
+  height: auto;
+  opacity: 0.8;       
+  transform: translateY(-50%) scaleX(-1);          
+  opacity: 0.2;
+}
+
+
+.logo-empresa:hover,
+.logo-empresaW:hover {
+  transform: scale(1.05);
+}
+
+.logo-overlay {
+  z-index: 1;
+}
+
+
+/* agrupa e espaça os dois botões */
+.theme-toggle-group {
+  display: flex;
+  gap: 12px;               /* espaço entre os botões */
+  justify-content: flex-end; /* alinha à direita, se desejar */
+  margin: 16px 0;          /* pequeno espaçamento vertical */
+}
+
+/* estilo base dos botões */
+.theme-toggle-btn {
+  background: none;
+  border: 2px solid transparent;
+  padding: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+/* ícone dentro */
+.theme-toggle-btn .theme-icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+/* hover simples */
+.theme-toggle-btn:hover {
+  transform: scale(1.1);
+}
+
+/* botão ativo ganha destaque */
+.theme-toggle-btn.active {
+  border-color: #538095;  /* ou outra cor do seu brand */
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.loading-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  z-index: 1;
+  animation: loadingAnimation 2s infinite;
+}
+.video-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  /* esconda enquanto loadingCam for true */
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.video-wrapper img[loading] {
+  opacity: 0;
+}
+
+
+@keyframes loadingAnimation {
+  0% {
+    content: ".";
+  }
+  33% {
+    content: "..";
+  }
+  66% {
+    content: "...";
+  }
+  100% {
+    content: ".";
+  }
+}
+
+.loading-placeholder::after {
+  display: inline-block;
+  content: ".";
+  font-size: 1.5rem;
+  animation: loadingAnimation 1s steps(1, end) infinite;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* container base dos alertas */
+.voltage-alert,
+.voltage-countdown {
+  position: fixed;
+  top: 50px;
+  right: 1100px;
+  background: #fff3cd;
+  border: 1px solid #ffeeba;
+  color: #856404;
+  padding: 12px 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  
+}
+
+/* ícone de alerta */
+.alert-icon {
+  font-size: 1.5rem;
+}
+
+/* texto */
+.alert-text {
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* animação de piscamento */
+@keyframes blinkAnim {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.blink {
+  animation: blinkAnim 1s infinite;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #000; /* fallback */
+}
+
+/* Botão de fullscreen */
+.fullscreen-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 4px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.2s;
+}
+.fullscreen-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Garante que o <img> preencha */
+.video-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Botão na miniatura (remove default) */
+.icone-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* container da lightbox */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;      /* cobre toda a viewport */
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+/* conteúdo interno */
+.lightbox-content {
+  position: relative;
+  max-width: 70%;
+  max-height: 100%;
+  background: #000;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+/* imagem ampliada */
+.lightbox-img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* botão de fechar */
+.lightbox-close {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Container que agrupa timer + botão */
+.timer-with-reset {
+  display: flex;
+  align-items: center;
+  gap: 4px;          /* pouco espaço entre timer e reset */
+}
+
+/* Texto do timer */
+.timer-with-reset .timer {
+  margin: 1;         /* remove margens extras */
+  padding: 1;        /* remove padding interno */
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* Botão de reset do cronômetro */
+.timer-reset-btn {
+  width: 24px;       /* largura fixa pequena */
+  height: 24px;      /* altura fixa pequena */
+  padding: 0;        /* sem padding extra */
+  margin: 0;         /* sem margem padrão */
+  font-size: 1.2em;  /* tamanho do ícone */
+  line-height: 1;
+  border: none;
+  border-radius: 5px;    /* canto levemente arredondado */
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-reset-btn:hover {
+  background: rgba(255,255,255,1);
+}
+
+/* ========= Ajuste de tamanho dos gyros ========= */
+.gyro-widget-container frc-gyro {
+  width: 250px;    /* define a largura desejada */
+  height: 250px;   /* define a altura desejada */
+  --fwc-scale: 0.8; /* alguns web-components aceitam variáveis customizadas */
+  display: block;  /* garante que o elemento respeite as dimensões */
+  margin: 8px 0;   /* espaçamento opcional */
+}
+
+
+/* Coluna central que empilha câmera + miniaturas */
+.camera-plus-thumbs {
+  display: flex;
+  flex-direction: column;
+  flex: 1;          /* ocupa o espaço central */
+  gap: 10px;        /* espaço entre câmera e thumbnails */
+}
+
+/* Ajuste nas miniaturas */
+.camera-plus-thumbs .captured-row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  background: var(--bg-secondary);
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Tamanhos menores para as miniaturas */
+.camera-plus-thumbs .captured-row .icone {
+  width: 80px;
+  height: 80px;
+}
+.camera-plus-thumbs .captured-row .icone img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* ////////////////////////////////////////////////// */
+.form-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.inspection-form {
+  background: #222;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 320px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.inspection-form h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.inspection-form input {
+  padding: 0.75rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 0.25rem;
+  outline: none;
+  background: #333;
+  color: #fff;
+}
+
+.inspection-form input::placeholder {
+  color: #bbb;
+}
+
+/* Botão de enviar */
+.inspection-form .btn {
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  background: #0055ff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.inspection-form .btn:hover {
+  background: #0044cc;
+}
+
+.form-container {
+  position: relative;
+}
+
+.form-close-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.reset-form-btn {
+  background: #ff4444;
+  color: #fff;
+}
+
+.reset-form-btn:hover {
+  background: #cc0000;
+}
+
+/* Resolução*/
+/* Estilo base do select */
+.resSelect {
+  appearance: none;               /* remove estilos nativos */
+  -webkit-appearance: none;
+  background: var(--bg-secondary);/* conforme seu tema */
+  color: var(--text-color);
+  border: 2px solid #538095;      /* cor do seu brand */
+  border-radius: 8px;
+  padding: 8px 36px 8px 12px;     /* espaço para o ícone */
+  font-family: 'Sansita One', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  position: relative;
+  
+}
+
+/* Ícone de dropdown via pseudo-elemento */
+.resSelect::after {
+  content: '▾';
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  color: var(--text-color);
+}
+
+/* Estado hover/focus */
+.resSelect:hover,
+.resSelect:focus {
+  border-color: #81C784;
+  box-shadow: 0 0 0 3px rgba(129, 199, 132, 0.3);
+  outline: none;
+}
+
+/* Ajuste do tamanho e responsividade */
+@media (max-width: 768px) {
+  .resSelect {
+    font-size: 0.9rem;
+    padding: 6px 32px 6px 10px;
+  }
+}
+

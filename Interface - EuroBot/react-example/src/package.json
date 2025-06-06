@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@frc-web-components/fwc": "^3.2.0",
+    "type": "module"
+
+  }
+}
